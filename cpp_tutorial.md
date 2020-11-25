@@ -31,3 +31,13 @@ Hello World
 I know that at start this code may seem difficult, but as soon as you understand it, it is nothing more than half a piece of cake.  
 Now, just note that this C++ tutorial will not be able to make you understand everything clearly, but can obviously provide you the things like the import links and all.  
 Also, you can grab the code from here for editing. But if you really want all the proper explanations, then see our [C++ Course on Youtube](https://www.youtube.com/playlist?list=PLmWXQgLAMBwGqz9EpLcquRsbP4wF1RwNb).
+"#include <iostream>" means that the <iostream> header file is included inside.
+"using namespace std" means that the "std" namespace is assumed to be used in all the ones where required. Without it, the code would look like
+```C++
+#include <iostream>
+  
+int main() {
+  std::cout << "Hello World" << std::endl;
+  return 0;
+}
+```
