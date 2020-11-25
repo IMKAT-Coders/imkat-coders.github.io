@@ -1,6 +1,6 @@
 # C++ Tutorial
 
-![C++](https://en.wikipedia.org/wiki/C%2B%2B#/media/File:ISO_C++_Logo.svg)
+![C++](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg)
 
 # Introduction to C++
 
