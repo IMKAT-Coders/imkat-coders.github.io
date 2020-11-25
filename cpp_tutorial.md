@@ -33,6 +33,7 @@ Now, just note that this C++ tutorial will not be able to make you understand ev
 Also, you can grab the code from here for editing. But if you really want all the proper explanations, then see our [C++ Course on Youtube](https://www.youtube.com/playlist?list=PLmWXQgLAMBwGqz9EpLcquRsbP4wF1RwNb).
 "#include <iostream>" means that the <iostream> header file is included inside.
 "using namespace std" means that the "std" namespace is assumed to be used in all the ones where required. Without it, the code would look like
+"cout << " is used for printing console output. "endl" is not compulsory. Just the thing that "endl" does the same thing as "\n" escape sequence(below).
 ```C++
 #include <iostream>
   
@@ -48,12 +49,33 @@ When you compile this code or the previous one, then you will notice that as you
 using namespace std;
 
 int main() {
-  cout << "Hello World";
+  cout << "Hello World" << endl;
   getch();
   return 0;
 }
 ```
 
 # C++ Escape Sequences and ASCII Table
+
 ![ASCII Table](ccc111.PNG)
 ![Escape Sequences in C++](ccc11112.PNG)
+
+# C++ Data Types
+
+There are two types of data types in C++: Primitive and Non-primitive.
+Primitive Data Types: Primitive data types are all predefined data types. All these are variables. E.g. Integer
+Non-primitive Data Types: Non-primitive data types are all user-defined data types. Except for strings, all non-primitive data types are not variables. E.g. Array
+
+# C++ Variables
+
+C++ Variables are like storage cotainers in real life. They store some value. They are classified on the basis of the type of data stored in them. Before we see those types, let us see a very basic code using C++ variables.
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string x = "Hello World";
+  cout << x;
+  retun 0;
+}
