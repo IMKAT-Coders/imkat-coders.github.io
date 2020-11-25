@@ -24,3 +24,6 @@ int main() {
 ```
 Hello World
 ```
+I know that at start this code may seem difficult, but as soon as you understand it, it is nothing more than half a piece of cake.  
+Now, just note that this C++ tutorial will not be able to make you understand everything clearly, but can obviously provide you the things like the import links and all.  
+Also, you can grab the code from here for editing. But if you really want all the proper explanations, then see our [Python Course on Youtube](https://www.youtube.com/playlist?list=PLmWXQgLAMBwGqz9EpLcquRsbP4wF1RwNb).
