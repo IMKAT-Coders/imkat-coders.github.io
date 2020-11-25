@@ -41,4 +41,4 @@ int main() {
   return 0;
 }
 ```
-And yes, when you co
+When you compile this code or the previous one, then you will notice that as you open the binary file, the console closes within a second. So instead of just writing the code, use the common exit code also. After that the code will look like
