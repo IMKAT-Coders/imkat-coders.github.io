@@ -56,4 +56,7 @@ int main() {
 
 # C++ Escape Sequences and ASCII Table
 ![ASCII Table](ccc111.PNG)
-![Escape Sequences in C++](ccc11112.PNG)
+| Escape sequences | Meaning |
+|------------------|---------|
+| \n | new line |
+| \t | tab |
