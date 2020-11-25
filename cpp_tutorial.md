@@ -1,5 +1,7 @@
 # C++ Tutorial
 
+![C++](https://en.wikipedia.org/wiki/C%2B%2B#/media/File:ISO_C++_Logo.svg)
+
 # Introduction to C++
 
 What is C++?
