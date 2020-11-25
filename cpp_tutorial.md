@@ -33,7 +33,7 @@ Now, just note that this C++ tutorial will not be able to make you understand ev
 Also, you can grab the code from here for editing. But if you really want all the proper explanations, then see our [C++ Course on Youtube](https://www.youtube.com/playlist?list=PLmWXQgLAMBwGqz9EpLcquRsbP4wF1RwNb).
 "#include <iostream>" means that the <iostream> header file is included inside.
 "using namespace std" means that the "std" namespace is assumed to be used in all the ones where required. Without it, the code would look like
-"cout << " is used for printing console output. "endl" is not compulsory. "endl" does the same thing as "\n" escape sequence(below). The only difference is that "endl" also flushes the stream. So 'cout << endl;' is equivalent to 'cout << "\n" << flush'.
+"cout << " is used for printing console output. "endl" is not compulsory. "endl" does the same thing as "\n" escape sequence(below). The only difference is that "endl" also flushes the stream. So `cout << endl;` is equivalent to `cout << "\n" << flush`.
 ```C++
 #include <iostream>
   
