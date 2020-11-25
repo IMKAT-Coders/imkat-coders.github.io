@@ -9,7 +9,7 @@ Lets get started
 
 # Basic Python Syntax
 
-Ok, so now after a brief introduction to Python, lets move towards the actual coding part. Download Python with the help of [this video](https://youtu.be/kV69k0kK6BM) from python.org. See the code below, which will output 'Hello World'. 
+Ok, so now after a brief introduction to Python, lets move towards the actual coding part. Download Python with the help of [this video](https://youtu.be/kV69k0kK6BM) from [python.org](python.org). See the code below, which will output 'Hello World'. 
 ```python
 print('Hello World')
 ```
