@@ -56,15 +56,4 @@ int main() {
 
 # C++ Escape Sequences and ASCII Table
 ![ASCII Table](ccc111.PNG)
-|Escape Sequences |Meaning                                              |
-|-----------------|-----------------------------------------------------|
-| \n              |New Line                                             |
-| \t              |Tab                                                  |
-| \a              |Beep                                                 |
-| \v              |Vertical Tab                                         |
-| \\              |\                                                    |
-| \?              |?                                                    |
-| \'              |'                                                    |
-| \"              |"                                                    |
-| \ooo            |Octal Digit(each octal digit with one"o")            |
-| \xhh            |Hexadecimal Digit(each hexadecimal digit with one "h"|
+![Escape Sequences in C++](ccc11112.PNG)
