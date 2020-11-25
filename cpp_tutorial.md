@@ -55,4 +55,4 @@ int main() {
 ```
 
 # C++ Escape Sequences and ASCII Table
-![ASCII Table]{ccc111.PNG}
+![ASCII Table]{ccc111.png}
