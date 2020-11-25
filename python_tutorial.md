@@ -21,3 +21,4 @@ So now let us move on to Python Variables
 
 # Python Variables
 
+Python Variables are type of boxes in real life, which store something.
