@@ -80,3 +80,10 @@ int main() {
   retun 0;
 }
 ```
+## C++ Variable Types
+
+There are four types of data types in C++.
+1. Integer
+2. Float
+3. String
+4. Boolean
