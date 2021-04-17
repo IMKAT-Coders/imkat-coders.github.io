@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMKAT Coders - Coding Made Easy</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://w3schools.com/w3css/4/w3.css">
+        <link rel="shortcut icon" href="favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" width="device-width initial-scale=1.0">
+        <style>
+            .about {
+                background-color:#0000ff;
+            }
+
+            .tutorials {
+                background-color:#00cc00;
+            }
+
+            .projects {
+                background-color:#ff0000;
+            }
+            * {
+                background-color:#ffffff;
+            }
+
+            .bs {
+                background-color:#e9ecef;
+            }
+
+            code {
+                background-color:gray;
+            }
+
+            a:link {
+                color:darkblue;
+            }
+
+            a:visited {
+                color:red;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .about {
+                    background-color:#2196f3;
+                }
+                .tutorials {
+                    background-color:#4caf50;
+                }
+                .projects {
+                    background-color:#f44336;
+                }
+                .box:hover {
+                    box-shadow: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="jbtron w3-card-2 jumbotron jumbotron-fluid  w3-leftbar w3-rightbar w3-border-light-grey">
+            <div class="bs container-fluid" style="text-align:center">
+                <img src="logo.PNG" width="100" height="100"></img>
+                <h1 class="bs">IMKAT Coders</h1>
+                <h3 class="bs">Coding Made Easy</h3>
+            </div>
+        </div>
+        <div class="container">
+            <div id="tab">
+                <button class="box btn-block w3-btn w3-hover-card"><marquee direction="up" style="text-align:center;"><h2><strong>IMKAT Coders</strong></h2></marquee></button>
+                <button class="btn-block w3-btn w3-hover-card-4 about"> <a class="collapsed card-link w3-text-black" data-toggle="collapse" href="#about"><h3 class="w3-blue">About</h3></a></button>
+                    <div id="about" class="collapse" data-parent="#tab"><h5>IMKAT Coders is a team founded by Ishan Kuber and Arin Torney. This team uses C++, C#, Python etc. for developing various applications and making libraries and frameworks. This team also takes tutorials on programming.</h5><br><a href="http://imkatcoders.worpress.com">IMKAT Coders on WordPress.com</a><br><br></div>
+                <button class="btn-block w3-btn w3-hover-card-4 tutorials"> <a class="collapsed card-link w3-text-black" data-toggle="collapse" href="#tutorials"><h3 class="w3-green">Tutorials</h3></a></button>
+                    <div id="tutorials" class="collapse" data-parent="#tab"><h5>We have started Python and Java and are soon going to start C++.</h5><br><a href="https://www.youtube.com/channel/UCEbuVsJ5FWVeGKIHUhfDaBQ">IMKAT Coders on YouTube</a><br><br></div>
+                <button class="btn-block w3-btn w3-hover-card-4 projects"> <a class="collapsed card-link w3-text-black" data-toggle="collapse" href="#projects"><h3 class="w3-red">Projects</h3></a></button>
+                    <div id="projects" class="collapse" data-parent="#tab"><h5>One big project started by this team is imkat.css. Another projects started are ComBot, mylogo, code editor etc.</h5><br><br><a href="https://github.com/IMKAT-Coders">IMKAT Coders on GitHub</a></div>
+            </div>
+        </div>
+        <br>
+        <h2 class="container">IMKAT.CSS</h2>
+        <h5 class="container">IMKAT.CSS is the first ever project started by IMKAT Coders. It is a powerful CSS framework.</h5>
+        <marquee scrollamount="3.75"><h5>Click <a href="imkatcss.zip">here</a> to download imkat.css.</h5></marquee>
+        <h4 class="container">Second Way</h4>
+        <br><h5 class="container">You can use the following in your HTML Code.</h5>
+        <h6 class="container"><pre>
+<code>&lt;link rel="stylesheet" type="text/css" href="https://imkat-coders.github.io/framework/imkatcss/v2-0/imkat.min.css&gt;</code></pre></h6>
+        <h2 class="container">Code Editor</h2>
+        <div class="container w3-border w3-border-black" style="color:black;font-family:'Courier New', Courier, monospace;" contenteditable="true">You may edit your code here.<br><br><br><br><br></div>
+        <h1></h1>
+    </body>
+</html>
